@@ -1,0 +1,2 @@
+This project contains code for loadable kernel modules (LKM)
+written for a device to store one byte of data.
