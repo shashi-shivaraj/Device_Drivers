@@ -1,3 +1,7 @@
+#Makefile to build loadable kernel modules
+#by Shashi Shivaraju
+
+
 KERNEL_PATH:= /home/user/kernel/kernel_withsystemcall/linux-2.6.32.55-1
 
 ccflags-y = -c -s -Wall -O3 -g
