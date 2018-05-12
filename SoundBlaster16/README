@@ -1,0 +1,7 @@
+This project contains code for loadable kernel modules (LKM)
+written for SoundBlaster16 sound card.
+
+1) LKM dspio.ko is kernel module to retrieve SB16 card's DSP version.
+2) LKM sb16driver.ko is device driver to play audio samples using SB16 sound card.
+   The sound card is configured to play 8-bit mono channel 11025Hz sound sample data.
+   cat sound1.raw > /dev/sb16driver
