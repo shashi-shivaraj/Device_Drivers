@@ -1,0 +1,8 @@
+This project contians code for device driver with ioctl commands to 
+set,get and clear data in kernal space form user space application.
+
+[USAGE]:
+[CLEAR DATA]:  ./query -c
+[GET DATA]:    ./query -g
+[SET DATA]:    ./query -s
+ 
